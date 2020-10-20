@@ -1,0 +1,256 @@
+h4 {
+    padding-bottom: 1rem;
+}
+
+.text_generic span {
+    color: #888888;
+}
+
+
+/* Phần header */
+
+#header h2 {
+    display: inline-block;
+    color: #CD2626;
+    margin-right: 2rem;
+}
+
+#header img {
+    vertical-align: top;
+    width: 2rem;
+    height: 2rem;
+}
+
+#header .phone_number {
+    vertical-align: baseline;
+    text-align: right;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #CD2626;
+}
+
+#header p {
+    margin: 0;
+}
+
+
+/* Introduce */
+
+#introduce {
+    width: auto;
+    height: auto;
+    background-color: #F8F8FF;
+}
+
+.button {
+    display: inline-block;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 4px solid #EEEEEE;
+    border-radius: 50rem;
+    margin: 1rem;
+    padding: 0.5rem 2rem;
+}
+
+.btn_purchase {
+    color: #CD3700;
+    background-color: #FF7F24;
+}
+
+.btn_purchase:hover {
+    background-color: #FF6600;
+}
+
+.btn_other {
+    background-color: #CCCCCC;
+    color: #666666;
+}
+
+.btn_other:hover {
+    background-color: #AAAAAA;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 0% !important;
+}
+
+.btn_slide {
+    font-size: 2rem;
+}
+
+
+/* Phần Describe */
+
+
+/* Phần Feature */
+
+#feature .fa-chevron-circle-right {
+    margin-right: 1.5rem;
+}
+
+#feature ul li {
+    list-style-type: none;
+    border-bottom: 1px solid #DDDDDD;
+    text-decoration: none;
+    padding: 0.5rem 0;
+}
+
+#feature ul li a:link,
+#feature ul li a:visited {
+    color: #FF7F24;
+    text-decoration: none;
+}
+
+#feature ul li a:hover {
+    font-size: 1.5rem;
+    color: #FF3300;
+}
+
+
+/* Phần screen */
+
+.img_special {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    border: 4px solid white;
+    background-image: url(img/Layer12.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.quote {
+    border: 1px solid #DDDDDD;
+    color: #888888;
+    font-size: 1.5rem;
+    font-style: italic;
+    padding: 2rem;
+    position: relative;
+}
+
+.quote::before,
+.quote::after {
+    right: 95%;
+    top: 100%;
+    width: 0;
+    height: 0;
+    border: 1px solid;
+    border-width: 0px 30px 30px 0px;
+    border-color: transparent #DDDDDD transparent transparent;
+    content: "";
+    position: absolute;
+}
+
+.quote::before {
+    border-color: transparent;
+    border-top-color: #DDDDDD;
+    border-right-color: #DDDDDD;
+    border-width: 16px;
+}
+
+.quote::after {
+    border-color: transparent;
+    border-top-color: white;
+    border-right-color: white;
+    border-width: 15px;
+}
+
+.author {
+    text-align: left;
+    margin-left: 4rem;
+    margin-top: 1.5rem;
+    color: #CCCCCC;
+}
+
+
+/* Phần footer */
+
+#footer {
+    background-color: #222222;
+    color: #666666;
+}
+
+#footer h4 {
+    color: #BBBBBB;
+}
+
+.payment {
+    width: 40px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#payment_visa {
+    background-image: url(img/payment.jpg);
+    background-position: 0px 0px;
+}
+
+#payment_mastercard {
+    background-image: url(img/payment.jpg);
+    background-position: 40px 0px;
+}
+
+#payment_ae {
+    background-image: url(img/payment.jpg);
+    background-position: 80px 0px;
+}
+
+#footer .logo img {
+    width: 90%;
+    height: auto;
+}
+
+#footer .logo a {
+    color: #666666;
+    text-decoration: none;
+}
+
+
+/* Phần about */
+
+#about {
+    background-color: #111111 !important;
+    color: #BBBBBB !important;
+}
+
+.link_orange {
+    color: #FF6600;
+    text-decoration: none;
+}
+
+.link_orange:hover {
+    font-size: 1.5rem;
+    color: #FF6600;
+    text-decoration: none;
+}
+
+.social_media {
+    background-color: #363636;
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 100%;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 5px;
+    padding-top: 6px;
+    color: #000000 !important;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+.social_media:hover {
+    background-color: #DDDDDD;
+}
